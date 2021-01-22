@@ -1,7 +1,7 @@
 .bg-hero
   background: #02160b url('../images/bg-hero.jpg') no-repeat center
 .header
-  padding: 13px 0 120px 0
+  padding: 11px 0 87px 0
 .menu
   display: flex
   align-items: center
@@ -13,7 +13,7 @@
     align-items: center
   &-title
     font-family: $roboto
-    font-size: 2rem
+    font-size: 1.39rem
     font-weight: normal
 .nav
   display: flex
@@ -26,3 +26,23 @@
   &__link
     text-decoration: none
     color: $fontlight
+    cursor: pointer
+    &::after
+      content: ''
+      display: block
+      height: 2px
+      width: 0%
+      background-color: $orange
+      transition: 0.3s
+    &:hover
+      &::after
+        width: 100%
+    &:active
+      color: $orange
+.search
+  transition: 0.3s
+  &:hover
+    border-radius: 5px
+    background-color: $orange
+  &:active
+    background-color: $pressed

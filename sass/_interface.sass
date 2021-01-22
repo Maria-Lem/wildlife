@@ -3,13 +3,26 @@
 .button
   padding: 9px 24px
   font-family: $roboto
+  text-decoration: none
+  color: $fontlight
   border-radius: 5px
+  cursor: pointer
+  transition: background-color 0.2s
   &__outline
     border: 2px solid $orange
-    transition: background-color 0.2s
     &:hover
       background-color: $orange
     &:active
       padding: 11px 26px
       border: none
+      background-color: $pressed
+  &__primary
+    padding: 17px 43px
+    background-color: $orange
+    border: none
+    outline: none
+    &:hover
+      background-color: $orangelight
+    &:active
+      padding: 17px 43px
       background-color: $pressed
