@@ -1,0 +1,49 @@
+.main
+  background-color: #cccccc
+.articles
+  padding: 89px 0 240px 0
+  &__title
+    margin-bottom: 32px
+    color: $fontdark
+    letter-spacing: normal
+    text-align: center
+  &__subtitle
+    margin-bottom: 125px
+    font-size: 1.04rem
+    color: $fontgrey
+    text-align: center
+.slider
+  display: flex
+  align-items: center
+  justify-content: space-between
+  &-wrap
+    display: flex
+    flex-direction: row
+    align-items: center
+    justify-content: space-between
+    width: 1020px
+    max-width: 100%
+.card
+  cursor: pointer
+  &__text
+    margin-top: -110px
+    text-align: center
+  &__title
+    margin: 0
+    margin-bottom: 10px
+    font-weight: normal
+    font-size: 0.95rem
+  &__subtitle
+    font-size: 0.74rem
+.arrow
+  margin-top: 50px
+  cursor: pointer
+  opacity: .8
+  transition: .2s
+  &:hover
+    padding: 10px 0
+    opacity: 1
+    background-color: $fontlight
+    border-radius: 5px
+  &:active
+    background-color: $orangelight
