@@ -425,16 +425,16 @@ body {
   font-weight: normal;
 }
 
+.item {
+  list-style: none;
+}
+
 .nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 521px;
   max-width: 100%;
-}
-
-.nav__item {
-  list-style: none;
 }
 
 .nav__link {
@@ -612,5 +612,21 @@ body {
 
 .form__button:active {
   padding: 17px 34px;
+}
+
+.footer {
+  padding: 136px 0;
+  background: #181617 url("../images/bg-footer.jpg") no-repeat center;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 280px;
+}
+
+.nav_footer {
+  margin-left: 15px;
 }
 /*# sourceMappingURL=style.css.map */
