@@ -626,6 +626,11 @@ body {
   width: 280px;
 }
 
+.social__link:hover {
+  transition: .2s;
+  filter: drop-shadow(2px -1px 14px #e33250) invert(75%);
+}
+
 .nav_footer {
   margin-left: 15px;
 }
