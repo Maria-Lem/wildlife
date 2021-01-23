@@ -498,7 +498,7 @@ body {
 }
 
 .articles {
-  padding: 89px 0 240px 0;
+  padding: 89px 0 253px 0;
 }
 
 .articles__title {
@@ -566,5 +566,51 @@ body {
 
 .arrow:active {
   background-color: #E39128;
+}
+
+.notify {
+  padding-bottom: 240px;
+}
+
+.notify__title {
+  margin-bottom: 65px;
+  font-size: 1.18rem;
+  letter-spacing: normal;
+  color: #333333;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.form__input {
+  padding: 0 15px;
+  width: 540px;
+  max-width: 100%;
+  line-height: 1;
+  color: #333333;
+  background: transparent;
+  outline: none;
+  border: 1px solid #666666;
+}
+
+.form__input::placeholder {
+  font-family: "Roboto", sans-serif;
+}
+
+.form__input:focus {
+  border: 2px solid #666666;
+}
+
+.form__button {
+  padding: 17px 34px;
+  border-radius: 0 5px 5px 0;
+}
+
+.form__button:active {
+  padding: 17px 34px;
 }
 /*# sourceMappingURL=style.css.map */
